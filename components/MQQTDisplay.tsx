@@ -32,7 +32,7 @@ export default function MQQTDisplay() {
       client.subscribe('led', function () {})
     })
     
-    client.on('message', function (topic: string, message: Buffer<ArrayBufferLike>) {
+    client.on('message', function (topic: string, message) {
       if (message.toString().includes('RGB')) {
         return;
       }
