@@ -9,16 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/lodash": "^4.17.9",
+    "@types/paho-mqtt": "^1.0.10",
+    "async-mqtt": "^2.6.3",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "mqtt": "^5.10.1",
+    "next": "14.2.14",
+    "paho-mqtt": "^1.1.0",
     "react": "^18",
+    "react-colorful": "^5.6.1",
     "react-dom": "^18",
-    "next": "14.2.14"
+    "use-debouncy": "^5.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.14"
+    "eslint-config-next": "14.2.14",
+    "sass": "^1.79.4",
+    "typescript": "^5"
   }
 }

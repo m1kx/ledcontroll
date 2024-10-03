@@ -1,0 +1,21 @@
+.container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 5px;
+
+  button {
+    padding: 10px;
+  }
+}
+
+.colorPickerContainer {
+  position: relative;
+}
