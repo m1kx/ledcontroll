@@ -1,0 +1,6 @@
+name: ledcontrol
+services:
+    ledcontrol:
+        ports:
+            - 3000:3000
+        image: ledcontrol
